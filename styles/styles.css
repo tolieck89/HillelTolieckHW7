@@ -1,0 +1,14 @@
+* {
+    margin:  1%;
+    background-color: azure;    
+}
+
+h1 {
+    color: red;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+a {
+    margin-left: 0%;
+}

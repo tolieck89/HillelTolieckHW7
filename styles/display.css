@@ -1,0 +1,42 @@
+body {
+    background-color:beige;
+}
+
+nav {
+    background-color: bisque;
+    height: 40px;
+    border: 1px dotted gray;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    width: 10%;
+    margin: 3px;
+    border: 1px dashed gray;
+    
+}
+
+.block {
+    display: block;
+    padding: 10px;
+    margin: 4%;
+    width: 50%  ;
+}
+
+.gallery > div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.flexgallery {
+    display: flex;
+    flex-direction: row;
+}
