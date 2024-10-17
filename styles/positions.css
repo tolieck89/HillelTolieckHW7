@@ -1,0 +1,95 @@
+body {
+    margin:  0% 1%;
+    background-color: azure;    
+}
+
+h1 {
+    color: red;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+
+nav {
+    background-color: bisque;
+    height: 40px;
+    border: 1px dotted gray;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+
+
+li {
+    display: inline;
+    width: 10%;
+    border: 1px dashed gray;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+    margin: 2px;
+
+
+} 
+
+.floatright {
+    float: right;
+    margin: 2px;
+    position: sticky;
+    z-index: 1000;
+
+}
+
+p {
+    text-align:justify;
+    margin: 2px;
+}
+
+.relativeblock {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    right: 200px;
+    text-align: justify;
+}
+
+.absolute {
+    position: absolute;
+    top: 250px;
+    right: 50px;
+
+}
+
+.chatwidget {
+    display: inline-block;
+ 
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: aqua;
+    color: blueviolet;
+    border: dashed black 1px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    z-index: 1000;
+    
+}
+
+.content {
+    color: brown;
+    margin-top: 230px;
+}
+
+.sticky {
+    right: 0;
+    top: 0;
+    margin: 2px;
+    position: sticky;
+    z-index: 1000;
+}
